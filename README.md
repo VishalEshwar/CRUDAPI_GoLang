@@ -22,6 +22,8 @@ go get github.com/gorilla/mux
 go run main.go
 Server runs at: http://localhost:8080
 
+
+
 ROUTES	            FUNCTIONS 	   ENDPOINTS	    METHODS	   POSTMAN
 Get All Movies 	    getMovies() 	 /movies	      GET	       localhost:8080/movies
 Get Movies by ID   	getMovie()	   /movies/{id}	  GET	       localhost:8080/movies/1
